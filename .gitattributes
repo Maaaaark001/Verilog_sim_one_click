@@ -1,0 +1,7 @@
+# 行尾统一：Windows 批处理用 CRLF，其余用 LF
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制
+*.png binary

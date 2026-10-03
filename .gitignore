@@ -1,0 +1,18 @@
+# 构建产物 / 缓存
+.sim/
+__pycache__/
+*.pyc
+*.vvp
+*.vpi
+*.o
+*.fst
+*.lxt
+*.lxt2
+*.vzt
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 说明：example/dump.vcd 是故意提交的示例波形，方便直接 sim.bat -o -d example 查看
